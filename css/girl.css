@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+body
+{
+  background: url("../img/girl/bg.jpg") 0 0;
+  background-position:center;
+  background-size:cover;
+  text-align: center;
+  display: table;
+}
+
+
+/* -------------------------------------------
+ * トップページ
+ * ------------------------------------------*/
+.container
+{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.top-header
+{
+  font-family: 'Lobster', cursive;
+  /*color: #37363D;*/
+  /*color: #B4637B;*/
+  color: #230E09;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, .2);
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+.my-btn
+{
+  font-family: 'Josefin Slab', serif;
+  font-size: 24px;
+  color: #3A3A3A;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 200px;
+  height: 80px;
+  border: 1px solid #3A3A3A;
+  background: rgba(255,255,255,0.2);
+  margin-bottom: 20px;
+}
